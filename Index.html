@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>One Nation One Health Card</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+<!--     <div class="top-bar">
+      भारत सरकार Government of India
+    </div> -->
+    <div class="main-header">
+      <img src="https://i.ibb.co/SrLbmx9/logo.png" alt="Health Card Logo" class="logo"/>
+      <h1>One Nation One Health Card</h1>
+      <input type="text" placeholder="Search...">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Benefits</a></li>
+        <li><a href="#">How It Works</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Section 1: Intro -->
+    <section id="intro">
+      <h2>Welcome to One Nation One Health Card</h2>
+      <p>India’s unified health record system ensuring secure and easy access to your complete medical history anytime, anywhere.</p>
+      <button id="sectionLoginBtn">Login to Access Your Health Record</button>
+    </section>
+
+    <!-- Section 2: Patient Details Form -->
+    <section id="patient-details">
+      <h2>Patient Login</h2>
+      <div class="details-card">
+        <form id="patient-form">
+          <div class="form-group">
+            <label for="patientName">Full Name</label>
+            <input type="text" id="patientName" placeholder="Enter full name" required />
+          </div>
+          <div class="form-group">
+            <label for="age">Age</label>
+            <input type="number" id="age" placeholder="Enter age" required />
+          </div>
+          <div class="form-group">
+            <label for="uid">Health Card ID</label>
+            <input type="text" id="uid" placeholder="Enter unique health ID" required />
+          </div>
+          <div class="form-group">
+            <label for="password">Set Password</label>
+            <input type="password" id="password" placeholder="Create a password" required />
+          </div>
+          <div class="form-group">
+            <button type="submit">Login</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 One Nation One Health Card | Powered by Digital India
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
+<!-- Section 3: Health Records -->
+<section id="health-records">
+  <h2>Your Health Records</h2>
+  <div class="record-card">
+    <h3>Allergies</h3>
+    <p>Peanuts, Penicillin</p>
+  </div>
+  <div class="record-card">
+    <h3>Medications</h3>
+    <p>Metformin 500mg (daily), Amlodipine 5mg (daily)</p>
+  </div>
+  <div class="record-card">
+    <h3>Lab Results</h3>
+    <p>Blood Sugar: 110 mg/dL | Cholesterol: 190 mg/dL | CBC: Normal</p>
+  </div>
+  <div class="record-card">
+    <h3>Procedures</h3>
+    <p>Appendectomy - 2018, Dental Surgery - 2021</p>
+  </div>
+  <div class="record-card">
+    <h3>Hospital Visits</h3>
+    <p>AIIMS Delhi, Fortis Gurgaon</p>
+  </div>
+</section>

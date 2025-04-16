@@ -1,0 +1,236 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f9ff;
+    color: #333;
+  }
+  
+  header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .top-bar {
+    background-color: #eeeeee;
+    padding: 8px 20px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    flex-wrap: wrap;
+  }
+  
+  .main-header .logo {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .main-header h1 {
+    flex: 1;
+    font-size: 24px;
+    color: #145da0;
+  }
+  
+  .main-header input[type="text"] {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 250px;
+  }
+  
+  nav {
+    background-color: #145da0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 0;
+    display: inline-block;
+  }
+  
+  main {
+    padding: 40px 20px;
+  }
+  
+  /* Section 1 */
+  #intro {
+    text-align: center;
+    background-color: #e6f2fb;
+    padding: 60px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  #intro h2 {
+    font-size: 32px;
+    color: #0b4c8a;
+    margin-bottom: 15px;
+  }
+  
+  #intro p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: #444;
+  }
+  
+  #intro button {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #145da0;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #intro button:hover {
+    background-color: #0b4c8a;
+  }
+  
+  /* Section 2 */
+  #patient-details {
+    display: none;
+    background: #ffffff;
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #patient-details h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #0b4c8a;
+  }
+  
+  .details-card {
+    background-color: #f1f8fd;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .form-group button {
+    background-color: #145da0;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-group button:hover {
+    background-color: #0b4c8a;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #145da0;
+    color: white;
+    margin-top: 50px;
+  }
+  
+  @media (max-width: 768px) {
+    .main-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .main-header input[type="text"] {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }
+  }
+  #health-records {
+    display: none;
+    background-color: #ffffff;
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+  
+  #health-records h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #0b4c8a;
+    margin-bottom: 30px;
+  }
+  
+  .record-card {
+    background-color: #eaf5fc;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+  
+  .record-card h3 {
+    font-size: 20px;
+    color: #145da0;
+    margin-bottom: 10px;
+  }
+  
+  .record-card p {
+    font-size: 16px;
+    color: #333;
+  }
+  
